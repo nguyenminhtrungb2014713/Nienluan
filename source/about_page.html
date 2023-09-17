@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon trang web -->
+  <link rel="shortcut icon" type="img/png" href="../assets/img/icon/favicon.webp">
+  <!-- css custom-->
+  <link rel="stylesheet" href="../assets/css/about_page.css">
+  <link rel="stylesheet" href="../assets/css/about_respon.css">
+  <!-- font Awesome -->
+  <script src="https://kit.fontawesome.com/9df639a5e3.js" crossorigin="anonymous"></script>
+  <title>About page</title>
+</head>
+<body>
+  <section id="page">
+    <header class="page__header">
+      <!-- banner -->
+      <div class="header__banner">
+        <!-- banner social icon left -->
+        <div class="banner__social-icon">
+          <a class="icon__link" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a class="icon__link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a class="icon__link" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <!-- banner social logo image middle -->
+        <div class="banner__logo">
+          <a class="logo__link" href="home_page.html"><img src="../assets/img/icon/Logo.webp" alt=""></a>
+        </div>
+        <!-- banner info right -->
+        <div class="banner__info">
+          <a onclick="showSearch()"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <div class="user__account">
+            <a href="login_page.html"><i class="fa-regular fa-user"></i></a>
+          </div>
+          <!-- shopping cart -->
+          <div class="shopping__cart">
+            <p class="no__order-item">0</p>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="header__form-search">
+        <form id="formID" action="#">
+          <input type="search" placeholder="Search keyword">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <!-- navigation -->
+      <div class="header__nav">
+        <!-- nav for desktop display -->
+        <nav class="header__nav--pc">
+          <!-- nav links -->
+          <a class="nav__link" href="home_page.html">Home</a>
+          <a class="nav__link" href="poster_page.html">Poster</a>
+          <a class="nav__link" href="about_page.html">About</a>
+          <a class="nav__link" href="contact_page.html">Contact</a>
+        </nav>
+        <!-- nav for width <= 768px -->
+        <nav class="header__nav--respon">
+          <div class="menu__btn">
+            <a onclick="showMenu()">
+              <span>MENU</span>
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+          <div id="menuBTN" class="menu__dropdown">
+            <a class="dropdown__link" href="home_page.html">Home</a>
+            <a class="dropdown__link" href="poster_page.html">Poster</a>
+            <a class="dropdown__link" href="about_page.html">About</a>
+            <a class="dropdown__link" href="contact_page.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- main  -->
+    <main class="page__main">
+      <!-- slide -->
+      <section class="slide__section">
+        <div class="slide__caption">
+          <div class="slide__animate">
+            <h1 class="slide__title">About Us</h1>
+          </div>
+        </div>
+      </section>
+      <!-- container -->
+      <div class="container">
+        <!-- about section -->
+        <section class="about__section">
+            <div class="about__caption">
+              <h2>Poster bóng đá thể hiện nội dung và hình ảnh về một giải đấu, một đội bóng,.. còn poster cầu thủ thể hiện hình ảnh và tinh thần của một cầu thủ nhất định.</h2>
+            </div>
+            <div class="about__content">
+              <div class="content__desc">
+                <h2>Tiêu chí của một poster đá bóng đẹp  <br>
+                </h2>
+                <p>Làm cho người nhìn có được cảm giác thỏa mãn về thị giác. Để đạt được điều đó, designer phải thiết kế poster bóng đá thật ấn tượng cũng như nắm bắt được thông điệp để truyền tải đến cho người nhìn.
+                  Đối với môn thể thao vua thì có các thông điệp thường gặp như: Sự đoàn kết, fair-play, tinh thần dân tộc, khát khao chiến thắng,...
+                </p>
+                <p> Tránh các thiết kế quá “phá cách" hay mang đậm dấu cá tính để đảm bảo tính thẩm mỹ chung của toàn xã hội bởi không phải ai cũng thích những sự “phá cách".
+                </p>
+                <p>Chất lượng hình ảnh, chữ viết được in trên poster ở cả dạng giấy và digital đều phải sinh động, rõ nét, dễ nhìn để tạo thiện cảm với người nhìn, người xem cũng như thể hiện được sự chuyên nghiệp của bên làm poster.
+                </p>
+              </div>
+              <div class="content__img">
+                <img src="../assets/img/home-img/about_img.webp" alt="About img">
+              </div>
+            </div>
+        </section> 
+        <!-- contact section -->
+        <section class="contact__section">
+          <div class="contact__caption"> 
+            <h2>Follow us on Instagram</h2>
+            <div class="contact__btn">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Postershop</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact__img-group">
+            <img src="../assets/img/home-img/contact__img-1.webp" alt="">
+            <img src="../assets/img/home-img/contact__img-2.webp" alt="">
+            <img src="../assets/img/home-img/contact__img-3.webp" alt="">
+            <img src="../assets/img/home-img/contact__img-4.webp" alt="">
+          </div>
+        </section> 
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page__footer">
+      <!--footer menu  -->
+      <section class="footer__menu">
+        <div class="footer__img--logo">
+          <img src="../assets/img/icon/Logo.webp" alt="">
+        </div>
+        <nav class="header__nav--pc">
+          <a class="nav__link" href="home_page.html">Home</a>
+          <a class="nav__link" href="poster_page.html">Poster</a>
+          <a class="nav__link" href="about_page.html">About</a>
+          <a class="nav__link" href="contact_page.html">Contact</a>
+        </nav>
+      </section>
+      <!-- footer contact info-->
+      <section class="footer__contact--info">
+        <!-- left -->
+        <div class="contact--info-left">
+          <div class="contact__des">
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="contact__social">
+            <div class="social__item">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+            <div class="social__item">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+              </a>
+            </div>
+            <div class="social__item">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- middle -->
+        <div class="contact--info-middle">
+          <img src="../assets/img/home-img/location.svg" alt="">
+          <h4>Location</h4>
+          <p>4736 Poe Lane, HOT SPRINGS, Montana-59845</p>
+        </div>
+        <!-- right -->
+        <div class="contact--info-right">
+          <img src="../assets/img/home-img/phone.svg" alt="">
+          <h4>Contact</h4>
+          <a href="">913-473-7000</a>
+          <p>contact@postershop.com</p>
+        </div>
+      </section>
+      <!-- footer coppy right -->
+      <section class="footer__license">
+        <p>Copyright ©2022 All rights reserved <br> This template is made with <i class="fa-solid fa-heart"></i> by <a href="#">Group 10</a></p>
+      </section>
+    </footer>
+  </section>
+  <script src="../assets/js/home_page.js"></script>
+  <script src="../assets/js/poster_page.js"></script>
+  <script>
+    window.onload = loadShoppingCart;
+  </script>
+</body>
+</html>
