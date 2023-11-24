@@ -12,9 +12,8 @@
 
         <div class="tt">
 
-            1. Email: minhtrung@gmail.com <br>
+            1. Email: nguyenminhtrung@gmail.com <br>
             2. Số điện thoại: 0929646240 <br>
-            3. Zalo: 0929646240 <br>
             4. Facebook: <a href="https://www.facebook.com/profile.php?id=100011285372014&mibextid=PzaGJu">https://www.facebook.com/ </a> <br>
             5. Địa chỉ: Hẻm 388, Nguyễn Văn Cừ, Phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ <br>
         </div>
